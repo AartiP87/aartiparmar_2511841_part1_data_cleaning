@@ -10,8 +10,8 @@ The retail company exported order-level sales data from multiple internal system
 
 # Dataset Description
 
-* **Dataset Name:** `raw_orders.xlsx`
-* **Cleaned Dataset:** `cleaned_orders.xlsx`
+* **Dataset Name:** raw_orders.xlsx
+* **Cleaned Dataset:** cleaned_orders.xlsx
 * **Final Records:** 912
 * **Final Columns:** 42
 * **Data Includes:**
@@ -27,7 +27,7 @@ The retail company exported order-level sales data from multiple internal system
 # Tools Used
 
 * Microsoft Excel
-* Excel Formulas (`TRIM`, `SUBSTITUTE`, `PROPER`, `IF`, `COUNTIF`, `DATEDIF`, `TEXT`, `YEAR`)
+* Excel Formulas ( TRIM, SUBSTITUTE , PROPER, IF, COUNTIF, DATEDIF, TEXT, YEAR )
 * Pivot Tables
 * Conditional Formatting
 * Filters and Sorting
@@ -45,23 +45,23 @@ The retail company exported order-level sales data from multiple internal system
 7. Validated discounts and flagged invalid records.
 8. Created calculated columns:
 
-   * `cleaned_discount`
-   * `calculated_sales`
-   * `calculated_profit`
-   * `profit_margin`
-   * `shipping_delay_days`
-   * `order_month`
-   * `order_year`
-   * `data_quality_flag`
+   * cleaned_discount
+   * calculated_sales
+   * calculated_profit
+   * profit_margin
+   * shipping_delay_days
+   * order_month
+   * order_year
+   * data_quality_flag
 9. Created data quality reports and pivot summaries.
 
 ---
 
 # Business Rules Applied
 
-* Missing `region` → Filled with **Unknown**
-* Missing `ship_mode` → Filled with **Unknown**
-* Missing `discount` → Treated as **0** when other sales fields were valid.
+* Missing region → Filled with **Unknown**
+* Missing ship_mode → Filled with **Unknown**
+* Missing discount → Treated as **0** when other sales fields were valid.
 * Negative discounts → Flagged as invalid.
 * Cancelled orders → Excluded from completed sales analysis.
 * Failed payments → Excluded from completed sales analysis.
@@ -138,10 +138,10 @@ The following pivot reports were created:
 
 The repository contains the following screenshots:
 
-* `raw_data_preview.png`
-* `cleaned_data_preview.png`
-* `pivot_summary_1.png`
-* `pivot_summary_2.png`
+* raw_data_preview.png
+* cleaned_data_preview.png
+* pivot_summary_1.png
+* pivot_summary_2.png
 
 These screenshots provide evidence of the raw dataset, cleaned dataset, and final pivot reports.
 
